@@ -1,9 +1,0 @@
-{
-  "name": "lunar-auth",
-  "version": "1.0.0",
-  "description": "Lunar Shift 邮箱登录（CloudBase HTTP 云函数 → COS 存储，scrypt 加盐哈希）",
-  "main": "index.js",
-  "dependencies": {
-    "cos-nodejs-sdk-v5": "^2.13.3"
-  }
-}
