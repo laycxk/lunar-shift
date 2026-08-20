@@ -1,0 +1,23 @@
+# ---- 构建 / 调试中间产物（不进仓库） ----
+dist/
+_check.js
+fix_i18n_*.py
+.tmp_lunarshift_extract/
+LunarShift-prototype-fresh-*.html
+keyframes/
+
+# ---- 依赖 / 运行时 ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- 本地 / 隐私 ----
+.workbuddy/
+.env
+.env.local
+*.log
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
